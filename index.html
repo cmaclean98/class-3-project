@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <title>Display a map on a webpage</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    
+    </head>
+
+<body>
+    <div class="sidebar">
+        <div class="title">
+            Where Camille has lived in NYC
+        </div>
+        <div class="description">
+            Please check out the various areas I've lived in NYC in the last 7 years.
+        </div>
+        <div class="description">
+            Click a marker to see the address and type.
+        </div>
+        <div class="description">
+            Color denotes whether I lived in a dorm or apartment.
+        </div>
+
+        <!-- HTML !-->
+        <button id="fly-to-eastvillage" class="button-18" role="button">Fly to East Village</button>
+        <button id="fly-to-alphabetcity" class="button-18" role="button">Fly to Alphabet City</button>
+        <button id="fly-to-unionsquare" class="button-18" role="button">Fly to Union Square</button>
+        <button id="fly-to-eastwilliamsburg" class="button-18" role="button">Fly to East Williamsburg</button>
+        <button id="fly-to-westvillage" class="button-18" role="button">Fly to West Village</button>
+
+    </div>
+
+        <div id="map"></div>
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>
